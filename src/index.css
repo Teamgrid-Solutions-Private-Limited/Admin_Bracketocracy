@@ -1,0 +1,221 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Toast */
+.toast-container {
+
+  position: fixed;
+
+  top: 12%;
+
+  left: 50%;
+
+  z-index: 1000;
+
+  transform: translateX(-50%);
+
+  width: 300px;
+
+  color: white;
+
+  text-align: center;
+
+  font-weight: 500;
+
+  border-radius: 5px;
+
+  font-size: 15px;
+
+  /* height: auto; */
+
+}
+
+ 
+
+.success {
+
+  background-color: #0e8140;
+
+}
+
+ 
+
+.fail {
+
+  background-color: #b61e21;
+
+  width: 600px;
+
+}
+
+ 
+
+.toast-icon {
+
+  font-size: 20px;
+
+  margin-right: 5px;
+
+}
+
+ 
+
+/* Spinner */
+
+.spinner-container {
+
+  height: 100vh;
+
+  width: 100%;
+
+  z-index: 9999;
+
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  background-color: white;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  opacity: 0.6;
+
+}
+
+ 
+
+/* Date Picker CSS */
+
+.date-picker {
+
+  width: 150px;
+
+}
+
+ 
+
+/* Header  */
+
+.enterprise-id {
+
+  cursor: pointer;
+
+}
+
+ 
+
+.enterprise-id:hover {
+
+  text-decoration: underline;
+
+}
+
+ 
+
+.timeout-modal .modal-content {
+
+  height: 40vh;
+
+  transform: translateY(50%);
+
+  margin-top: 0px;
+
+}
+
+ 
+
+.timeout-modal .modal-title {
+
+  color: #b61e21;
+
+  font-weight: 900;
+
+  justify-content: center;
+
+  font-size: 18px;
+
+}
+
+ 
+
+.timeout-modal .modal-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 15%;
+
+}
+
+ 
+
+.timeout-modal .modal-header {
+
+  justify-content: center;
+
+  text-transform: uppercase;
+
+  word-spacing: 5px;
+
+  font-size: 18px;
+
+}
+
+ 
+
+.session-timeout-message {
+
+  font-weight: 900;
+
+  color: #460073;
+
+}
+
+ 
+
+.session-timeout-btn {
+
+  background-color: #460073;
+
+  color: white;
+
+  width: 80px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  padding: 4px 0px;
+
+  border: none;
+
+}
+
+ 
+
+.input-group > .form-control {
+
+  font-size: 14px;
+
+}
