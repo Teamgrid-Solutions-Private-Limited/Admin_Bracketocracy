@@ -14,10 +14,12 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "@mui/x-date-pickers": "^7.12.0",
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.3",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "date-fns": "^3.6.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
@@ -25,6 +27,7 @@
     "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",

@@ -7,6 +7,8 @@ import Login from './components/login/Login'
 import Teams from './components/teams/Teams'
 import Rounds from './components/rounds/Rounds'
 import Zones from './components/zones/Zones'
+import  Dashboard  from './components/dashboard/Dashboard'
+import Notification from './components/notifications/Notifications'
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
           {/* <Login /> */}
           {/* <Teams /> */}
           {/* <Rounds /> */}
-          <Zones/>
+          {/* <Zones/> */}
+          {/* <Dashboard/> */}
+          <Notification/>
       </div>
     </>
   )
